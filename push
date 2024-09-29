@@ -1,0 +1,5 @@
+#!/bin/sh -x
+
+dirname=$(dirname "$0")
+
+"$dirname"/build --push "$@"
